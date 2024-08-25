@@ -1,4 +1,4 @@
-<h1> :mushroom: Curious and Adaptive Coder who has an eye for Art :mushroom: </h1>
+<h1> :mushroom: Curious and Adaptive Coder who has an eye for Art </h1>
 
 ![HelloWorldDone](https://github.com/user-attachments/assets/23c93678-cc4f-42fa-8c7c-35a479281f44)
 
