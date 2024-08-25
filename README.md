@@ -1,4 +1,11 @@
+<h1> :mushroom: Curious and Adaptive Coder who has an eye for Art :mushroom: </h1>
 ## Hi there 👋
+<table>
+<tbody>
+<tr><td><img src="https://t4.ftcdn.net/jpg/07/63/56/49/360_F_763564929_xVWTQpND9NyBqAoJVo2jnpIgON95K2wx.jpg" title="Soft Skills" alt="soft skills" /></td></tr>  
+<tr><td></td></tr>
+</tbody>
+</table>
 
 <!--
 **trickell/trickell** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
