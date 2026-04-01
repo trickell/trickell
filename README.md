@@ -1,8 +1,5 @@
 <h1> :mushroom: Curious and Adaptive Coder who has an eye for Art </h1>
 
-![HelloWorldDone](https://github.com/user-attachments/assets/23c93678-cc4f-42fa-8c7c-35a479281f44)
-
-
 <table>
 <tbody>
 <tr><td><img src="https://t4.ftcdn.net/jpg/07/63/56/49/360_F_763564929_xVWTQpND9NyBqAoJVo2jnpIgON95K2wx.jpg" title="Soft Skills" alt="soft skills" /></td></tr>  
