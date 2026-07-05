@@ -12,7 +12,6 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=trickell&theme=chartreuse-dark&hide_border=true)
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=trickell&theme=chartreuse-dark&hide_border=true&include_all_commits=false&count_private=false&layout=compact)
 
-https://github.com/user-attachments/assets/cea736b1-b0d7-4107-9739-be0571aa00ad
 
 Here are some ideas to get you started:
 
