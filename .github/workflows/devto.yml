@@ -1,4 +1,4 @@
-name: dev.to Badges & Neon Sign
+name: Neon Signs & dev.to
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
     branches: [main]
     paths:
       - .github/workflows/devto.yml
-      - .github/scripts/devto.mjs
+      - .github/scripts/*.mjs
 
 permissions:
   contents: write
@@ -24,7 +24,10 @@ jobs:
         with:
           node-version: 22
 
-      - name: Build badges + follower sign
+      - name: Build header + About Me signs
+        run: node .github/scripts/signs.mjs
+
+      - name: Build badges, follower sign + badge count
         env:
           DEVTO_USERNAME: trickell
           DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
@@ -34,5 +37,5 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add README.md assets/devto-followers.svg
-          git diff --cached --quiet || (git commit -m "chore: refresh dev.to badges & follower sign" && git push)
+          git add README.md assets/
+          git diff --cached --quiet || (git commit -m "chore: refresh neon signs & dev.to badges" && git push)

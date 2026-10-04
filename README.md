@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:05050a,40:3b1259,75:8a1fad,100:00f0e8&height=200&section=header&text=John%20A%20Madrigal&fontSize=54&fontColor=00f0e8&animation=twinkling&fontAlignY=34&desc=%2F%2F%20curious%20%26%20adaptive%20coder%20with%20an%20eye%20for%20art%20%2F%2F&descSize=17&descAlignY=56&descColor=c9d1d9" width="100%" alt="John A Madrigal" />
+<img src="assets/neon-header.svg" width="100%" alt="John A Madrigal — curious &amp; adaptive coder with an eye for art" />
 
 <a href="https://github.com/trickell">
   <img src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=22&duration=2600&pause=900&color=00F0E8&center=true&vCenter=true&width=640&lines=%3E+booting+neural+interface...;Building+Microcart+%E2%80%94+a+miniature+Shopify;Exploring+AI+models+%26+voice+interfaces;Learning+React.js+%2F+Three.js;Code+is+art.+Art+is+code." alt="Typing SVG" />
@@ -9,7 +9,7 @@
 <br/>
 
 <a href="https://www.linkedin.com/in/jmadriga"><img src="https://img.shields.io/badge/LinkedIn-Connect-00f0e8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a12" alt="LinkedIn" /></a>
-<a href="https://dev.to/trickell"><img src="https://img.shields.io/badge/DEV.to-trickell-a855f7?style=for-the-badge&logo=devdotto&logoColor=white&labelColor=0a0a12" alt="dev.to" /></a>
+<a href="https://dev.to/trickell"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftrickell%2Ftrickell%2Fmain%2Fassets%2Fdevto.json&style=for-the-badge" alt="dev.to followers" /></a>
 <a href="https://github.com/trickell?tab=followers"><img src="https://img.shields.io/github/followers/trickell?style=for-the-badge&logo=github&color=00ff6a&labelColor=0a0a12&label=Followers" alt="GitHub followers" /></a>
 <img src="https://komarev.com/ghpvc/?username=trickell&style=for-the-badge&color=8a1fad&label=Profile+Views" alt="Profile views" />
 
@@ -17,23 +17,11 @@
 
 <img src="assets/neon-divider.svg" width="100%" alt="" />
 
-## ⚡ About Me
+<div align="center">
 
-```text
-> whoami
-  Designer-turned-engineer. I build things that look as good as they work.
+<img src="assets/neon-about.svg" width="100%" alt="About Me — Designer-turned-engineer. Current focus: Microcart, AI assistants, madrigal.design. Ask me about AI models, API design, data scraping &amp; structuring." />
 
-> current_focus
-  🛒 Microcart        — a miniature Shopify, rebuilt in Next.js
-  🤖 AI assistants    — local-first voice HUDs, RAG knowledge bases
-  🎨 madrigal.design  — portfolio v2, rebuilt in React
-
-> ask_me_about
-  AI models · API design · data scraping & structuring
-
-> fun_fact
-  "The world is beyond our comprehension, but science tethers close to it."
-```
+</div>
 
 ## 🧰 Arsenal
 
