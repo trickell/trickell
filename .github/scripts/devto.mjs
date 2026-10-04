@@ -8,6 +8,7 @@
 //   DEVTO_API_KEY  (needed for the follower count — dev.to only exposes
 //                   followers to the account owner's own key)
 
+import { createHash } from 'node:crypto';
 import { readFile, writeFile, mkdir } from 'node:fs/promises';
 import { C, esc, flicker, inlineFont, glowFilter, panel, svg } from './neon.mjs';
 
@@ -140,8 +141,9 @@ async function main() {
   const count = fetched ?? prev;
   console.log(`followers=${count ?? 'n/a'}${fetched == null && prev != null ? ' (cached)' : ''} badges=${badges.length}`);
 
+  const sign = await buildSign(count);
   await mkdir('assets', { recursive: true });
-  await writeFile('assets/devto-followers.svg', await buildSign(count));
+  await writeFile('assets/devto-followers.svg', sign);
   await writeFile('assets/devto.json', badgeJson(count));
 
   const readme = await readFile(README, 'utf8');
@@ -150,7 +152,13 @@ async function main() {
   const i = readme.indexOf(start);
   const j = readme.indexOf(end);
   if (i === -1 || j === -1) throw new Error('DEVTO-BADGES markers missing from README');
-  const next = `${readme.slice(0, i + start.length)}\n${badgeGrid(badges)}\n${readme.slice(j)}`;
+  // Version the sign's URL by its content so browsers drop stale copies
+  // whenever the count changes.
+  const version = createHash('sha1').update(sign).digest('hex').slice(0, 8);
+  const next = `${readme.slice(0, i + start.length)}\n${badgeGrid(badges)}\n${readme.slice(j)}`.replace(
+    /assets\/devto-followers\.svg(\?v=[\w]+)?/g,
+    `assets/devto-followers.svg?v=${version}`,
+  );
   if (next !== readme) await writeFile(README, next);
 }
 
