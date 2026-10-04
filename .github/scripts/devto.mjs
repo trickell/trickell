@@ -62,8 +62,8 @@ const decode = (s) =>
 // or expired key never wipes the published count.
 async function previousCount() {
   try {
-    const m = JSON.parse(await readFile('assets/devto.json', 'utf8')).message.match(/^(\d+)/);
-    return m ? Number(m[1]) : null;
+    const m = JSON.parse(await readFile('assets/devto.json', 'utf8')).message.match(/^([\d,]+) follower/);
+    return m ? Number(m[1].replace(/,/g, '')) : null;
   } catch {
     return null;
   }
@@ -73,7 +73,7 @@ async function previousCount() {
 
 async function buildSign(count) {
   const title = 'DEV.TO FOLLOWERS';
-  const value = count == null ? 'FOLLOW >' : String(count).padStart(3, '0');
+  const value = count == null ? 'FOLLOW >' : count.toLocaleString('en-US').padStart(3, '0');
   const meta = `// @${USER} · NEON SIGNAL //`;
   const W = 540;
   const H = 150;
@@ -109,7 +109,7 @@ function badgeJson(count) {
       {
         schemaVersion: 1,
         label: 'DEV.to',
-        message: count == null ? USER : `${count} follower${count === 1 ? '' : 's'}`,
+        message: count == null ? USER : `${count.toLocaleString('en-US')} follower${count === 1 ? '' : 's'}`,
         color: 'a855f7',
         labelColor: '0a0a12',
         namedLogo: 'devdotto',
