@@ -1,0 +1,39 @@
+name: 3D Contributions
+
+on:
+  schedule:
+    - cron: "30 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - .github/workflows/profile-3d.yml
+      - .github/profile-3d-contrib.json
+
+permissions:
+  contents: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate 3D contribution chart
+        uses: yoshi389111/github-profile-3d-contrib@latest
+        env:
+          # Add a classic PAT as METRICS_TOKEN to include private contributions.
+          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN || secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+          SETTING_JSON: .github/profile-3d-contrib.json
+
+      - name: Publish to output-3d branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output-3d
+          build_dir: profile-3d-contrib
+          keep_history: false
+          commit_message: "chore: regenerate 3d contributions"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
