@@ -11,7 +11,7 @@
 <a href="https://www.linkedin.com/in/jmadriga"><img src="https://img.shields.io/badge/LinkedIn-Connect-00f0e8?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=0a0a12" alt="LinkedIn" /></a>
 <a href="https://dev.to/trickell"><img src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Ftrickell%2Ftrickell%2Fmain%2Fassets%2Fdevto.json&style=for-the-badge" alt="dev.to followers" /></a>
 <a href="https://github.com/trickell?tab=followers"><img src="https://img.shields.io/github/followers/trickell?style=for-the-badge&logo=github&color=00ff6a&labelColor=0a0a12&label=Followers" alt="GitHub followers" /></a>
-<img src="https://komarev.com/ghpvc/?username=trickell&style=for-the-badge&color=8a1fad&label=Profile+Views" alt="Profile views" />
+<a href="https://hits.sh/github.com/trickell/"><img src="https://hits.sh/github.com/trickell.svg?style=for-the-badge&label=Profile%20Views&color=8a1fad&labelColor=0a0a12" alt="Profile views" /></a>
 
 </div>
 
