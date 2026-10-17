@@ -80,11 +80,12 @@
 
 <div align="center">
 
-<a href="https://dev.to/trickell"><img src="assets/devto-followers.svg?v=67658eea" width="540" alt="dev.to followers neon sign" /></a>
+<a href="https://dev.to/trickell"><img src="assets/devto-followers.svg?v=e043330a" width="540" alt="dev.to followers neon sign" /></a>
 
 <br/><br/>
 
 <!-- DEVTO-BADGES:START -->
+<a href="https://dev.to/trickell" title="Hacktoberfest 2026 Challenge Completion"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F506%2Fhf26-badge-completion.png" alt="Hacktoberfest 2026 Challenge Completion" title="Hacktoberfest 2026 Challenge Completion" width="72" height="72" /></a>
 <a href="https://dev.to/trickell" title="Summer Bug Smash Completion Badge"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F475%2Fbugsmash-header-prelaunch-02.png" alt="Summer Bug Smash Completion Badge" title="Summer Bug Smash Completion Badge" width="72" height="72" /></a>
 <a href="https://dev.to/trickell" title="Hermes Agent Challenge Completion"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F466%2Fbadge-hermes-participation.png" alt="Hermes Agent Challenge Completion" title="Hermes Agent Challenge Completion" width="72" height="72" /></a>
 <a href="https://dev.to/trickell" title="Two Year Club"><img src="https://media2.dev.to/dynamic/image/width=192,height=,fit=scale-down,gravity=auto,format=auto/https%3A%2F%2Fdev-to-uploads.s3.us-east-2.amazonaws.com%2Fuploads%2Fbadge%2Fbadge_image%2F9%2FVersion2-07.png" alt="Two Year Club" title="Two Year Club" width="72" height="72" /></a>
