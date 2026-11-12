@@ -80,7 +80,7 @@
 
 <div align="center">
 
-<a href="https://dev.to/trickell"><img src="assets/devto-followers.svg?v=46773200" width="540" alt="dev.to followers neon sign" /></a>
+<a href="https://dev.to/trickell"><img src="assets/devto-followers.svg?v=3bfbdb7b" width="540" alt="dev.to followers neon sign" /></a>
 
 <br/><br/>
 
